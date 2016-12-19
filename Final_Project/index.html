@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Are you biased?</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
+	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+</head>
+
+<body>
+	<div id="fullpage">
+		<div class="section" id="section0" style="background-color:#707070">
+			<div class="content">
+				<div class="logo">
+					<img src="img/bias.png" style="opacity: 0.4">
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h1>Do you think you are biased?</h1>
+						<p>Search Results The Central Test founder believes that weighing intuition and fact against each other is an art that comes with experience. Being the opposite of naivety bias, entomologist bias influences recruiters who totally disregard emotions
+							and judge candidates on pure facts.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section1">
+			<div class="content">
+				<ul class="pretest">
+					<li class="active">Engineer<br><p value="ageN">Young</p> <p>Old</p></li>
+					<li>Teacher<br><p value="ageN">Young</p> <p>Old</p></li>
+					<li>Nurse<br><p value="ageN">Young</p> <p>Old</p></li>
+					<li>Engineer<br><p class="careerN">Man</p> <p>Woman</p></li>
+					<li>Teacher<br><p class="careerN">Man</p> <p>Woman</p></li>
+					<li>Nurse<br><p class="careerN">Man</p> <p>Woman</p></li>
+					<li>Joey<br><p class="scienceN">Engineer</p> <p>Teacher</p></li>
+					<li>Stephanie<br><p class="scienceN">Programmer</p> <p>Designer</p></li>
+					<li>Robin<br><p class="scienceN">Secretary</p> <p>CEO</p></li>
+					<li>
+						Your test is finished, please scroll down!!!
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section" id="section2">
+			<div class="content">
+				<h1>How bias do you think you are?</h1>
+				<div class="question">
+					<p>1.Do you think you are age biased?</p>
+					<label>
+				Slighty
+				<input type="radio" onclick="iAgeFunction()" name="iAge" value="Slightly">
+			</label>
+					<label>
+				Moderate
+				<input type="radio" onclick="iAgeFunction()" name="iAge" value="Moderate">
+			</label>
+					<label>
+				Strong
+				<input type="radio" onclick="iAgeFunction()" name="iAge" value="Strong">
+			</label>
+					<label>
+			 No preference
+				<input type="radio" onclick="iAgeFunction()" name="iAge" value="No preference">
+			</label>
+				</div>
+				<div class="question">
+					<p>2. Do you think you are gender-career biased?</p>
+					<label>
+		Slighty
+		<input type="radio" onclick="iCareerFunction()" name="iCareer" value="Slightly">
+      	</label>
+					<label>
+      		Moderate
+      		<input type="radio" onclick="iCareerFunction()" name="iCareer" value="Moderate">
+      	</label>
+					<label>
+      		Strong
+      		<input type="radio" onclick="iCareerFunction()" name="iCareer" value="Strong">
+      	</label>
+					<label>
+      	 No preference
+      		<input type="radio" onclick="iCareerFunction()" name="iCareer" value="No preference">
+      	</label>
+				</div>
+				<div class="question">
+					<p>3.Do you think you are gender-science biased?</p>
+					<label>
+		Slighty
+		<input type="radio" onclick="iScienceFunction()" name="iScience" value="Slightly">
+	</label>
+					<label>
+		Moderate
+		<input type="radio" onclick="iScienceFunction()" name="iScience" value="Moderate">
+	</label>
+					<label>
+		Strong
+		<input type="radio" onclick="iScienceFunction()" name="iScience" value="Strong">
+	</label>
+					<label>
+	 No preference
+		<input type="radio" onclick="iScienceFunction()" name="iScience" value="No preference">
+	</label>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<div>
+				<p>Finish Your Test and Click Continue!</p>
+				<iframe src="https://implicit.harvard.edu/implicit/takeatest.html" frameborder="0" class="iatcontent"></iframe>
+				<a class="biasButton" href="#section4">Continue</a><span>Please Insert your grade below (Scroll Down)</span>
+			</div>
+		</div>
+		<div class="section" id="section4">
+			<div class="content">
+				<h1>What is Your IAT Test Result?</h1>
+				<div class="question">
+					<p>1.Are you age biased?</p>
+					<label>
+				Slighty
+				<input type="radio" onclick="iatAgeFunction()" name="iatAge" value="Slightly">
+			</label>
+					<label>
+				Moderate
+				<input type="radio" onclick="iatAgeFunction()" name="iatAge" value="Moderate">
+			</label>
+					<label>
+				Strong
+				<input type="radio" onclick="iatAgeFunction()" name="iatAge" value="Strong">
+			</label>
+					<label>
+			 No preference
+				<input type="radio" onclick="iatAgeFunction()" name="iatAge" value="No preference">
+			</label>
+				</div>
+				<div class="question">
+					<p>2. Are you gender-career biased?</p>
+					<label>
+		Slighty
+		<input type="radio" onclick="iatCareerFunction()" name="iatCareer" value="Slightly">
+      	</label>
+					<label>
+      		Moderate
+      		<input type="radio" onclick="iatCareerFunction()" name="iatCareer" value="Moderate">
+      	</label>
+					<label>
+      		Strong
+      		<input type="radio" onclick="iatCareerFunction()" name="iatCareer" value="Strong">
+      	</label>
+					<label>
+      	 No preference
+      		<input type="radio" onclick="iatCareerFunction()" name="iatCareer" value="No preference">
+      	</label>
+				</div>
+				<div class="question">
+					<p>3.Are you gender-science biased?</p>
+					<label>
+		Slighty
+		<input type="radio" onclick="iatScienceFunction()" name="iatScience" value="Slightly">
+	</label>
+					<label>
+		Moderate
+		<input type="radio" onclick="iatScienceFunction()" name="iatScience" value="Moderate">
+	</label>
+					<label>
+		Strong
+		<input type="radio" onclick="iatScienceFunction()" name="iatScience" value="Strong">
+	</label>
+					<label>
+	 No preference
+		<input type="radio" onclick="iatScienceFunction()" name="iatScience" value="No preference">
+	</label>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section5">
+				<table>
+					<tr>
+						<th></th>
+						<th>How bias do you think you are?</th>
+						<th>How bias do you actually are?</th>
+						<th style="width:30%">Suggestion:</th>
+					</tr>
+					<tr>
+						<th>Age Biases</th>
+						<th id="iAge"></th>
+						<th id="iatAge"></th>
+						<th rowspan="3">
+							<p>If you did great, Congratulations! If not, don't worry, click and study more!</p>
+							<a href="learning.html"><u>Go!Go!Go!</u></a>
+
+						</th>
+					</tr>
+					<tr>
+						<th>Gender-Career Biases</th>
+						<th id="iCareer"></th>
+						<th id="iatCareer"></th>
+
+					</tr>
+					<tr>
+						<th>Science-Career Biases</th>
+						<th id="iScience"></th>
+						<th id="iatScience"></th>
+
+					</tr>
+				</table>
+			</div>
+		<div class="section" id="section6">
+			<div class="content">
+				<ul class="posttest">
+					<li class="active">Engineer<br><p>Young</p> <p class="iageN">Old</p></li>
+					<li>Teacher<br><p class="iageN">Young</p> <p>Old</p></li>
+					<li>Nurse<br><p >Young</p> <p class="iageN">Old</p></li>
+					<li>Engineer<br><p >Man</p> <p class="careerrN">Woman</p></li>
+					<li>Teacher<br><p >Man</p> <p class="icareerN">Woman</p></li>
+					<li>Nurse<br><p class="icareerN">Man</p> <p>Woman</p></li>
+					<li>Joey<br><p >Engineer</p> <p class="iscienceN">Teacher</p></li>
+					<li>Stephanie<br><p class="iscienceN">Programmer</p> <p>Designer</p></li>
+					<li>Robin<br><p >Secretary</p> <p class="iscienceN">CEO</p></li>
+					<li>
+						Your test is finished, please scroll down!!!
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section " id="section7">
+			<table>
+				<tr>
+					<th></th>
+					<th>Your Pretest Performance</th>
+					<th>Your Posttest Performance</th>
+				</tr>
+				<tr>
+					<th>Age Biases</th>
+					<th id="iiAge">0</th>
+					<th id="iiaAge">0</th>
+				</tr>
+				<tr>
+					<th>Gender-Career Biases</th>
+					<th id="iiCareer">0</th>
+					<th id="iiaCareer">0</th>
+				</tr>
+				<tr>
+					<th>Science-Career Biases</th>
+					<th id="iiScience">0</th>
+					<th id="iiaScience">0</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script src="js/canvasjs.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	<script src="js/question.js"></script>
+	<script type="text/javascript" src="js/javascript.fullPage.js"></script>
+	<script type="text/javascript">
+		fullpage.initialize('#fullpage', {
+			anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage', 'lastPage'],
+			menu: '#menu',
+			css3: true
+		});
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #34495e;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    line-height: 40px;
+    font-family: 'Lato', sans-serif;
+    color: #ecf0f1;
+    height: 160px;
+    overflow: hidden;
+}
+
+.visible{
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    padding: 0 40px;
+}
+.visible::before {
+    content: "[ ";
+    left: 0;
+    line-height: 40px;
+}
+
+.visible::after {
+    content: "]";
+    right: 0;
+    line-height: 40px;
+
+}
+.visible:after, .visible:before {
+    position: absolute;
+    top: 0;
+    color: #16a085;
+    font-size: 42px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+p {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 110px;
+    list-style: none;
+    text-align: left;
+    animation-name: change;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes opacity {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes change {
+    0%, 12%, 100% {
+        transform: translateY(0);
+    }
+    17%,29% {
+        transform: translateY(-25%);
+    }
+    34%,46% {
+        transform: translateY(-50%);
+    }
+    51%,63% {
+        transform: translateY(-75%);
+    }
+    68%,80% {
+        transform: translateY(-50%);
+    }
+    85%,97% {
+        transform: translateY(-25%);
+    }
+}

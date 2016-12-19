@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Handlee', cursive;
+    line-height: 2vw;
+}
+h1{
+  padding-top:1.2vw;
+}
+
+p {
+
+    font-size: 1.3vw;
+}
+a{
+  text-decoration: none;
+	font-size:1.5vw;
+	font-weight:bolder;
+	color:#ffffff;
+}
+.section {
+    height: 100vh;
+    margin: 0;
+    padding: 2vw;
+}
+
+.title > * {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 0.8vw;
+
+}
+
+.content {
+    padding: 2vw;
+}
+
+/*navBar styling*/
+.fixed-nav-bar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color:#c7d86e;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    height: 100%;
+    font-size:0.9vw;
+    width: 20%;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding-top:10px;
+    margin: -1px -7px -1px -1px;
+    cursor: pointer;
+    transition: all .1s;
+    -webkit-transition: all .01s;
+}
+
+.active {
+    color: yellow;
+}
+
+/*section-one styling*/
+.section-one {
+    background-color: #de9c2b;
+}
+
+.section-one .heading {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.col-left {
+    float: left;
+    width: 45%;
+    margin-left: 1vw;
+}
+
+.col-right {
+    float: right;
+    width: 45%;
+}
+
+/*section-two styling*/
+.section-two {
+    background-color: #50b8c1;
+}
+
+/*section-three styling*/
+.section-three {
+    background-color: #ee8d7d;
+}
+
+/*section-four styling*/
+.section-four {
+    background-color: #f6c407;
+}
+
+/*section-five styling*/
+.section-five {
+    background-color: #f2c2b8;
+}
+
+.containerTwo {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.strategy div {
+    height: 23vh;
+    width: 23vh;
+    padding: 1vw;
+
+}
+
+.section-five img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.9s ease;
+
+}
+
+.section-five img:hover {
+    transform: translate(0, -30px);
+}
+
+.blur {
+    filter: blur(2px) grayscale(80%);
+
+}
+
+.strategy-word p {
+    display: none;
+}
+
+/*carousel styling*/
+.carousel-inner {
+    width: 10%;
+    height: 30vh;
+}
+
+.carousel-inner > .itvw > img,
+.carousel-inner > .itvw > a > img {
+    width: 10%;
+    margin: auto;
+}
+
+/*iframe styling*/
+
+.hideIframe {
+    width: 80vh;
+    height: 50vh;
+    display: none;
+}
+
+i {
+    font-size: 1.3vw;
+    padding: 2px;
+    transition: all 0.9s ease;
+    border-bottom: #2C3E50 solid 2px;
+}
+
+i:hover {
+    color: 2C3E50;
+    box-shadow: 10px 5px 5px #2C3E50;
+    transform: translate(40px, 20px);
+    font-size:1.5vw;
+    border-radius: 10%;
+}
+
+.section-five{
+  position:relative;
+
+}
+ .goback{
+  position:absolute;
+  top:80%;
+  left:5%;
+}
