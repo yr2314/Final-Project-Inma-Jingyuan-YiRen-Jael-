@@ -30,6 +30,14 @@ a{
     margin-top: 0.8vw;
 
 }
+.backButton {
+    background-color: #0f2147;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw;
+    color: #e7ebee;
+    padding: 5px;
+    font-size: 1.5vw;
+}
 
 .content {
     padding: 2vw;
@@ -40,12 +48,13 @@ a{
     position: fixed;
     z-index: 9999;
     width: 100%;
-    background-color:#c7d86e;
+    background-color:#4b4c62;
 }
 
 nav a {
     text-decoration: none;
     color: white;
+
 }
 
 nav ul li {
@@ -69,7 +78,7 @@ nav ul li {
 
 /*section-one styling*/
 .section-one {
-    background-color: #de9c2b;
+    background-color: #e7ebee;
 }
 
 .section-one .heading {
@@ -90,22 +99,22 @@ nav ul li {
 
 /*section-two styling*/
 .section-two {
-    background-color: #50b8c1;
+    background-color: #c7cacd;
 }
 
 /*section-three styling*/
 .section-three {
-    background-color: #ee8d7d;
+    background-color: #e7ebee;
 }
 
 /*section-four styling*/
 .section-four {
-    background-color: #f6c407;
+    background-color: #c7cacd;
 }
 
 /*section-five styling*/
 .section-five {
-    background-color: #f2c2b8;
+    background-color: #e7ebee;
 }
 
 .containerTwo {

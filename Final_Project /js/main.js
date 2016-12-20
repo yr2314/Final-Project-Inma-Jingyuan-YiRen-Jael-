@@ -1,4 +1,3 @@
-
 function iAgeFunction() {
 		    var iAgeTest = document.querySelector('input[name = "iAge"]:checked').value;
 		    document.getElementById("iAge").innerHTML = iAgeTest;
@@ -29,7 +28,3 @@ function pretestAge(){
 	document.querySelectorAll('.age').style.display='none';
 	document.querySelectorAll('button[name ="precareer"]').style.display='block';
 }
-// function iiAgeFunction() {
-// 		    var iiAgeTest = document.querySelector('input[name = "iiAge"]:checked').value;
-// 		    document.getElementById("iiAge").innerHTML = iiAgeTest;
-// 			}
